@@ -1,0 +1,26 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main() 
+{
+
+//int a = 10;  - ta linia zastapila by 3 ponizsze linie jesli liczba miala by byc z gory zdefiniowana (np. 10)
+int a;
+cout << "Podaj liczbe od jakiej odliczyc w dol:   ";
+cin >> a;
+cout << "\n\nOdliczanie:\n ";
+do // nie ma warunku! kod po "do" wykona sie na pewno co najmniej jeden raz
+{
+	cout << a << " ";	
+	a--;
+	
+} while (a > 0);
+
+cout << endl << endl;
+
+system ("pause");
+
+	return 0;
+}
